@@ -1,3 +1,4 @@
+# Accepted: 12/23/2022
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         # Monacher's Algorithm
