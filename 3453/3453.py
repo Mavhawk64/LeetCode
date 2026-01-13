@@ -1,3 +1,4 @@
+# Accepted: 01/13/2026
 from collections import defaultdict
 from itertools import pairwise
 from typing import List

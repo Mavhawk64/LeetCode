@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/maverick/Coding Folder/repos/LeetCode/0005/Solution5/Solution5/Solution5.csproj": {}
+    "/home/maverick/repos/LeetCode/0005/Solution5/Solution5/Solution5.csproj": {}
   },
   "projects": {
-    "/Users/maverick/Coding Folder/repos/LeetCode/0005/Solution5/Solution5/Solution5.csproj": {
+    "/home/maverick/repos/LeetCode/0005/Solution5/Solution5/Solution5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/maverick/Coding Folder/repos/LeetCode/0005/Solution5/Solution5/Solution5.csproj",
+        "projectUniqueName": "/home/maverick/repos/LeetCode/0005/Solution5/Solution5/Solution5.csproj",
         "projectName": "Solution5",
-        "projectPath": "/Users/maverick/Coding Folder/repos/LeetCode/0005/Solution5/Solution5/Solution5.csproj",
-        "packagesPath": "/Users/maverick/.nuget/packages/",
-        "outputPath": "/Users/maverick/Coding Folder/repos/LeetCode/0005/Solution5/Solution5/obj/",
+        "projectPath": "/home/maverick/repos/LeetCode/0005/Solution5/Solution5/Solution5.csproj",
+        "packagesPath": "/home/maverick/.nuget/packages/",
+        "outputPath": "/home/maverick/repos/LeetCode/0005/Solution5/Solution5/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/maverick/.config/NuGet/NuGet.Config"
+          "/home/maverick/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -32,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net5.0": {
@@ -43,16 +49,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
