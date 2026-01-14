@@ -1,10 +1,4 @@
-
-using System.Security.Cryptography;
-using System.Security.Cryptography.X509Certificates;
-
 Console.WriteLine("LeetCode 1266");
-// [[1,1],[3,4],[-1,0]]
-// [[3,2],[-2,2]]
 var solution = new Solution();
 var test1 = new int[][]
 {
