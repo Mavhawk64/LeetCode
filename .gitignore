@@ -1,1 +1,158 @@
+########################################
+# General build artifacts
+########################################
+*.log
+*.tmp
+
+########################################
+# C / C++
+########################################
 *.o
+*.obj
+*.out
+*.exe
+a.out
+*.dll
+*.dylib
+*.so
+
+########################################
+# Java / Kotlin / Scala
+########################################
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven / Gradle
+target/
+build/
+.gradle/
+.mvn/wrapper/maven-wrapper.jar
+
+########################################
+# C# / .NET
+########################################
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.pdb
+*.dll
+
+########################################
+# Python
+########################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+########################################
+# JavaScript / TypeScript / Node
+########################################
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+*.map
+.npmrc
+.yarnrc
+.pnpm-store/
+.yarn/
+.yarn-cache/
+.yarn-unplugged/
+.yarn-build-state.yml
+.yarn-install-state.gz
+
+########################################
+# Go
+########################################
+# If you ever compile binaries locally:
+*.test
+*.prof
+*.pprof
+*.cover
+coverage.out
+
+########################################
+# Rust
+########################################
+target/
+Cargo.lock
+
+########################################
+# Swift (Xcode)
+########################################
+.DerivedData/
+.build/
+*.xcodeproj/*
+*.xcworkspace/*
+*.xcuserstate
+*.xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM*
+
+########################################
+# Ruby
+########################################
+.bundle/
+vendor/bundle/
+*.gem
+Gemfile.lock
+
+########################################
+# PHP (Composer)
+########################################
+vendor/
+composer.lock
+
+########################################
+# Dart (Flutter)
+########################################
+.dart_tool/
+.packages
+.pub/
+pubspec.lock
+build/
+
+########################################
+# Erlang
+########################################
+*.beam
+*.plt
+.rebar3/
+_*.beam
+erl_crash.dump
+
+########################################
+# Elixir (mix)
+########################################
+_deps/
+_build/
+*.ez
+.mix/
+
+########################################
+# Racket
+########################################
+compiled/
+*.zo
+
+########################################
+# Local env / secrets
+########################################
+.env
+.env.*
