@@ -1,3 +1,4 @@
+// Accepted: 01/14/2026
 // Cheers to the post online:
 // https://robert1003.github.io/2020/02/10/sweep-line-and-segment-tree.html
 // It helped me understand the sweep line algorithm better.
