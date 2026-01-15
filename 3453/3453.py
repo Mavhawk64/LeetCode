@@ -59,6 +59,7 @@ class BestSolution:
             area += s * (y2 - y)
             if area * 2 >= total_area:
                 return y2 - (area * 2 - total_area) / (s * 2)
+        return -1
 
 
 if __name__ == "__main__":

@@ -1,3 +1,4 @@
+// Accepted: 01/14/2026
 Console.WriteLine("LeetCode 1266");
 var solution = new Solution();
 var test1 = new int[][]
