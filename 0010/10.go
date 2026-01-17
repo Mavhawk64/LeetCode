@@ -1,3 +1,4 @@
+// Accepted: 01/17/2026
 package main
 
 func isMatch(s string, p string) bool {
